@@ -3,14 +3,24 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 15vmin;
   pointer-events: none;
+  border-radius: 100%;
+  border: 3px solid #61dafb;
+}
+
+.App-social-icon {
+  height: 4vmin;
+  pointer-events: none;
+  border-radius: 100%;
+  border: 1px solid #61dafb;
+  background-color: #fff;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  /* .App-logo {
     animation: App-logo-spin infinite 20s linear;
-  }
+  } */
 }
 
 .App-header {
@@ -22,6 +32,26 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-header a {
+  margin-right: 5px;
+}
+
+.App-header p {
+  font-size: 16px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.App-header button {
+  border: 0;
+  background-color: #61dafb;
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 150px;
 }
 
 .App-link {
