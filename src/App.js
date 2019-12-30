@@ -3,7 +3,7 @@ import logo from '../src/assets/images/destiny_ajakaiye.jpeg';
 import Twitter from '../src/assets/images/facebook.png';
 import Github from '../src/assets/images/github.png';
 import LinkedIn from '../src/assets/images/linkedin.png';
-import Medium from '../src/assets/images/linkedin.png';
+import Medium from '../src/assets/images/medium.png';
 import './App.css';
 import '../src/assets/css/cssanimation.min.css';
 
@@ -95,13 +95,13 @@ class Home extends Component {
             {stepFour && (
               <>
                 <p>
-                  <a href="https://www.twitter.com/@DestinyAjax" target="blank" title="Twitter">
+                  <a href="https://www.twitter.com/DestinyAjax" target="blank" title="Twitter">
                     <img src={Twitter} className="App-social-icon" alt="..." />
                   </a>
                   <a href="https://www.linkedin.com/in/destinyajax/" target="blank" title="Linkedin">
                     <img src={LinkedIn} className="App-social-icon" alt="..." />
                   </a>
-                  <a href="https://www.github/destinyajax" target="blank" title="Github">
+                  <a href="https://www.github.com/destinyajax" target="blank" title="Github">
                     <img src={Github} className="App-social-icon" alt="..." />
                   </a>
                   <a href="https://medium.com/@destinyajax" target="blank" title="Medium">
